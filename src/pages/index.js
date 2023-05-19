@@ -5,7 +5,7 @@ import "../css/styles.css"
 
 const IndexPage = () => (
   <div className="container">
-    <div className="left">
+    <div className="column">
       <h1>Built in Component</h1>
       <StaticImage
         style={{ marginBottom: "5px", border: "1px solid black" }}
@@ -29,7 +29,7 @@ const IndexPage = () => (
         placeholder="none"
       />
     </div>
-    <div className="right">
+    <div className="column">
       <h1>Cloudinary</h1>
       <img
         width="500"
